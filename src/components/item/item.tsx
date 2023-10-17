@@ -9,8 +9,8 @@ const Item: React.FC<ItemProps> = ({ item, handleAddToCart }) => (
     <img src={item.image} alt={item.title}></img>
     <div>
       <h3>{item.title}</h3>
-      <p>{item.description.slice(0, 340) + "..."}</p>
-      <h3>{item.price}</h3>
+      <p>{item.description.slice(0, 200) + " ..."}</p>
+      <h3>${item.price}</h3>
     </div>
     <Button onClick={() => handleAddToCart(item)}>Add to cart</Button>
   </Wrapper>

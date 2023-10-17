@@ -10,5 +10,5 @@ export const StyledButton = styled(IconButton)`
   z-index: 100;
   right: 20px;
   top: 20px;
-  transform: scale(1.8);
+  transform: scale(1.5);
 `;
